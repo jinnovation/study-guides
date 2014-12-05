@@ -33,7 +33,7 @@
 **** TODO 4
      Topics
 ** Midterm 2
-*** [4/5] 6
+*** [5/5] 6
 **** DONE 1: Basics of Counting
 ***** Product Rule
       Suppose that a procedure can be broken down into a sequence of two tasks.
@@ -160,7 +160,7 @@
          { n+1 \choose r+1}  = \sum_{j=r}^n {j \choose r}
         \end{equation*}
       #+END_LaTeX
-**** TODO 5: Generalized Permutations and Combinations
+**** DONE 5: Generalized Permutations and Combinations
 ***** Theorem: Number of r-permutations with repetition                 :THM:
       The number of $r$-permutations of a set of $n$ objects with repetition
       allowed is $n^r$.
@@ -178,6 +178,21 @@
         \end{equation*}
       #+END_LaTeX
 ***** Theorem: Distinguishable objects, distinguishable boxes           :THM:
+      The number of ways to distribute $n$ distinguishable objects into $k$
+      distinguishable boxes so that $n_i$ objects are placed into box $i$, $i =
+      1,2, \hdots, k$, is 
+
+      #+BEGIN_LaTeX
+      \frac{n!}{n_1!n_2! \hdots n_k!}
+      #+END_LaTeX
+***** Indistinguishable objects, distinguishable boxes
+      Same as counting number of $n$-combinations for a set with $k$ elements
+      when repitition is allowed.
+***** Distinguishable objects, indistinguishable boxes
+      # TODO
+***** Indistinguishable objects, indistinguishable boxes
+      Distributing $n$ objects into $k$ boxes is the same as writing $n$ as the
+      sum of at most $k$ positive integers in nonincreasing order.
 *** [0/4] 7
 **** TODO 1
 **** TODO 2
